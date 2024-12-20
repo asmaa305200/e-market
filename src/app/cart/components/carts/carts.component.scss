@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .shopping-cart {
+    h1 {
+      color: #333;
+    }
+  
+    p {
+      font-size: 16px;
+  
+      span {
+        color: #007bff;
+      }
+    }
+  
+    .btn-outline-primary {
+      border-radius: 50%;
+      padding: 0.25rem 0.5rem;
+    }
+  
+    .btn-danger {
+      background-color: #dc3545;
+      color: #fff;
+  
+      &:hover {
+        background-color: #c82333;
+      }
+    }
+  
+    .btn-success {
+      background-color: #28a745;
+  
+      &:hover {
+        background-color: #218838;
+      }
+    }
+  
+    .alert {
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+
